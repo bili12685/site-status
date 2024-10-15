@@ -64,7 +64,6 @@ const SiteCharts = ({ siteDetails }) => {
               {
                 key: "all-data",
                 label: "站点详情初始数据",
-                children: <p>{JSON.stringify(siteDetails)}</p>,
               },
             ]}
           />
