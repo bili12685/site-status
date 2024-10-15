@@ -56,18 +56,6 @@ const SiteCharts = ({ siteDetails }) => {
             showIcon
           />
         )}
-        <div className="all">
-          <Line {...chartConfig} />
-          <Collapse
-            style={{ marginTop: "20px" }}
-            items={[
-              {
-                key: "all-data",
-                label: "站点详情初始数据",
-              },
-            ]}
-          />
-        </div>
       </div>
     </MacScrollbar>
   );
